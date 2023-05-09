@@ -1,0 +1,34 @@
+
+body{
+    background-color: #d76a6a;
+    width: auto;
+    height: auto;
+}
+
+.main{
+    text-align: center;
+}
+
+.cards_container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+    justify-items: center;
+}
+
+.card{
+    border: 5px solid #6dd9d9;
+    background-color: #6dd9d9;
+    width: 250px;
+    height: auto;
+    display: grid;
+    grid-gap: 7px;
+}
+
+.task{
+    border: 5px solid #d9d56d;
+    background-color: #d9d56d;
+    width: auto;
+    height: auto;
+    text-align: start;
+}
